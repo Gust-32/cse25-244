@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games at Pixel Brew</title>
+    <!-- same CSS/JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header> <!-- same navbar with active on Games -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0d0d0d;">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo" height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="games.html">Games</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header py-5">
+            <div class="container">
+                <h1 class="text-center">Our Game Collection</h1>
+                <p class="text-center">50+ cabinets – all on free play with admission!</p>
+            </div>
+        </section>
+
+        <section class="games-list py-5">
+            <div class="container">
+                <h2>Classic Arcade</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/game-pacman.jpg" class="card-img-top" alt="Pac-Man">
+                            <div class="card-body">
+                                <h5 class="card-title">Pac-Man</h5>
+                                <p class="card-text">The original maze chase. 1980.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/game-donkeykong.jpg" class="card-img-top" alt="Donkey Kong">
+                            <div class="card-body">
+                                <h5 class="card-title">Donkey Kong</h5>
+                                <p class="card-text">Jumpman (Mario) rescues Pauline. 1981.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/game-galaga.jpg" class="card-img-top" alt="Galaga">
+                            <div class="card-body">
+                                <h5 class="card-title">Galaga</h5>
+                                <p class="card-text">Space shooter classic. 1981.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5">Pinball</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/pinball-addams.jpg" class="card-img-top" alt="The Addams Family">
+                            <div class="card-body">
+                                <h5 class="card-title">The Addams Family</h5>
+                                <p class="card-text">Best‑selling pinball of all time. 1992.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/pinball-twilight.jpg" class="card-img-top" alt="Twilight Zone">
+                            <div class="card-body">
+                                <h5 class="card-title">Twilight Zone</h5>
+                                <p class="card-text">Complex rules, amazing gadgets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5">Retro Console Corner</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/console-nes.jpg" class="card-img-top" alt="NES">
+                            <div class="card-body">
+                                <h5 class="card-title">Nintendo NES</h5>
+                                <p class="card-text">Super Mario Bros., Zelda, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/console-sega.jpg" class="card-img-top" alt="Sega Genesis">
+                            <div class="card-body">
+                                <h5 class="card-title">Sega Genesis</h5>
+                                <p class="card-text">Sonic the Hedgehog, Streets of Rage.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> <!-- same footer -->
+        <div class="container text-center py-4">
+            <p>&copy; 2026 Pixel Brew. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
